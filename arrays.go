@@ -21,4 +21,16 @@ func main() {
 	////////
 	var cars = [4]string{"Volvo", "BMW", "Ford", "Mazda"}
 	fmt.Print(cars)
+
+	///////
+	prices := [3]int{10,20,30}
+
+	fmt.Println(prices[0])
+	fmt.Println(prices[2])
+
+	///////
+	pricess := [3]int{10,20,30}
+
+	pricess[2] = 50
+	fmt.Println(pricess)
 }
