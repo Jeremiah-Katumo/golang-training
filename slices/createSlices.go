@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	// Create a Slice With []datatype{values}
 	myslice1 := []int{}
 	fmt.Println(len(myslice1))
 	fmt.Println(cap(myslice1))
@@ -15,7 +16,7 @@ func main() {
 	fmt.Println(cap(myslice2))
 	fmt.Println(myslice2)
 
-	///////
+	// Create slice from an array
 	arr1 := [6]int{10, 11, 12, 13, 14,15}
 	myslice := arr1[2:4]
 
@@ -23,7 +24,7 @@ func main() {
 	fmt.Printf("length = %d\n", len(myslice))
 	fmt.Printf("capacity = %d\n", cap(myslice))
 
-	//////
+	// Create a slice with the make function
 	myslice11 := make([]int, 5, 10)
 	fmt.Printf("myslice11 = %v\n", myslice11)
 	fmt.Printf("length = %d\n", len(myslice11))
