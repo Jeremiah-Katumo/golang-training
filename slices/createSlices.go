@@ -22,4 +22,15 @@ func main() {
 	fmt.Printf("myslice = %v\n", myslice)
 	fmt.Printf("length = %d\n", len(myslice))
 	fmt.Printf("capacity = %d\n", cap(myslice))
+
+	//////
+	myslice11 := make([]int, 5, 10)
+	fmt.Printf("myslice11 = %v\n", myslice11)
+	fmt.Printf("length = %d\n", len(myslice11))
+	fmt.Printf("capacity = %d\n", cap(myslice11))
+	// with omitted capacity
+	myslice22 := make([]int, 5)
+	fmt.Printf("myslice22 = %v\n", myslice22)
+	fmt.Printf("length = %d\n", len(myslice22))
+	fmt.Printf("capacity = %d\n", cap(myslice22))
 }
